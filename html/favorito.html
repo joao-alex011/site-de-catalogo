@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORms</title>
+</head>
+<body>
+    <h1>Formulário de Favoritos</h1>
+    <hr>
+    <form action="/action_page.php" method="post">
+  <label for="dragao-favorito">Qual foi o seu dragão favorito?</label>
+  <br>
+  <select id="dragao-favorito" name="dragao_favorito">
+    <option value="">-- Escolha um dragão --</option>
+    <option value="balerion">Balerion (O Terror Negro)</option>
+    <option value="vhagar">Vhagar</option>
+    <option value="vermithor">Vermithor (A Fúria Bronzeada)</option>
+    <option value="meraxes">Meraxes</option>
+    <option value="dreamfyre">Dreamfyre</option>
+    <option value="silverwing">Silverwing (Asa de Prata)</option>
+    <option value="quicksilver">Quicksilver</option>
+  </select>
+  <br><br>
+  <label for="comentarios">O que você mais gostou sobre ele(a)?</label>
+  <br>
+  <textarea id="comentarios" name="comentarios" rows="5" cols="40" placeholder=></textarea>
+  <br><br>
+  <button type="submit">enviar</button>
+</form>
+<a href="menu.html">Voltar ao Menu</a>
+</body>
+</html>
